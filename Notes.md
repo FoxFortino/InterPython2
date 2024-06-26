@@ -28,8 +28,10 @@
 
 - GitHub stuff, remote repository
     - Setting up SSH keys
-        - ssh-keygen -t ed25519 -C "<email>"
+        - ssh-keygen -t ed25519 -C "your emaill here"
         - Copy the public key in ~/.ssh
         - Go to github, add that ssh key.
     - Initialize a new online repo. Follow the directions for pushing an existing repo from the command line.
         - From HTTPS or SSH select SSH (thats why we set up SSH keys to begin with)
+    - git push, git pull. git fetch
+    
